@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8</title>
+    <style>
+        table{
+            border:solid;
+        }
+        td{
+            border-style:solid;
+            border-color:black;
+        }
+        h2{
+            margin-left:auto;
+            margin-right:auto;
+            color:blue
+        }
+    </style>
+</head>
+<body>
+<h2>Registration form</h2>
+<table>
+    <tr>
+        <td>
+            <label for="fname">First name :</label>
+        </td>
+        <td>
+            <input type="text" id="fname" name="fname">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="lname">Last name :</label>
+        </td>
+        <td>
+            <input type="text" id="lname" name="lname">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="email">Email :</label>
+        </td>
+        <td>
+            <input type="email" id="email" name="email">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="pass">Password :</label>
+        </td>
+        <td>
+            <input type="password" id="pass" name="pass">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="repass">Re- enter Password :</label>
+        </td>
+        <td>
+            <input type="repass" id="repass" name="repass">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="gender">Gender :</label>
+        </td>
+        <td>
+            <input type="radio" name="gender">male<br>
+            <input type="radio" name="gender">female
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="age">Age :</label>
+        </td>
+        <td>
+            <input type="number" id="age" name="age">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="phone">Phone number :</label>
+        </td>
+        <td>
+            <input type="tel" id="phone" name="phone">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="address">Address: </label>
+        </td>
+        <td>
+            <input type="text" id="address" name="address">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="state">State :</label>
+        </td>
+        <td>
+            <input type="text" id="state" name="state">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="country">Country :</label>
+        </td>
+        <td>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+                <option value="">Sri Lanka</option>
+                <option value="Russia">Russia</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="lang">Language known :</label>
+        </td>
+        <td>
+            <input type="radio" name="hindi" >Hindi
+            <input type="radio" name="kannada" >Kannada
+            <input type="radio" name="telugu" >Telugu
+            <input type="radio" name="english" >English
+        </td>
+    </tr>
+    <tr>
+        <td colpan="2">
+            <input type="checkbox">Hereby I declare all the given details are true
+        </td>
+    </tr>
+    
+</table>
+<input id="reg" type="submit" value="Register">
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6</title>
+</head>
+<body>
+<h2>Registration form</h2>
+<label for="fname">First name :</label>
+<input type="text" id="fname" name="fname"><br><br>
+<label for="lname">Last name :</label>
+<input type="text" id="lname" name="lname"><br><br>
+<label for="mail">Mail :</label>
+<input type="email" id="mail" name="mail"><br><br>
+<label for="gender">Gender :</label>
+<input type="radio" name="gender" >male
+<input type="radio" name="gender" >female<br><br>
+<label for="age">Age :</label>
+<input type="number" id="age" name="age"><br><br>
+<label for="phone">Phone number :</label>
+<input type="tel" id="phone" name="phone"><br><br>
+<label for="address">Address :</label>
+<input type="text" id="address" name="address"><br><br>
+<label for="state">State :</label>
+<input type="text" id="state" name="state"><br><br>
+<label for="country">Country :</label>
+<select name="country" id="country">
+    <option value="India">India</option>
+    <option value="Australia">Australia</option>
+    <option value="">Sri Lanka</option>
+    <option value="Russia">Russia</option>
+</select>
+<br><br>
+<label for="lang">Language known :</label>
+<input type="radio" name="hindi" >Hindi
+<input type="radio" name="kannada" >Kannada
+<input type="radio" name="telugu" >Telugu
+<input type="radio" name="english" >English
+<br><br>
+<input type="checkbox" name="gender" >Hereby I declare all the given details are true :
+<br><br>
+<input type="submit" value="Register">
+</body>
+</html>
